@@ -383,7 +383,7 @@ body {
 
 /* Contact Section */
 .contact-section {
-  background-color: var(--section-bg);
+  background-color: var(--secondary);
   padding: 50px;
   color: var(--dark);
   min-height: 100vh;
