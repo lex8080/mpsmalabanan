@@ -13,8 +13,9 @@
     <script src="js/script.js" defer></script>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17734560765"></script>
-</head>
-<body>
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+  </head>
+<body>      
 
     <!-- Navbar -->
     <nav class="navbar" id="navbar">
@@ -203,15 +204,15 @@
     <!-- Left Side - Form -->
     <div class="contact-form">
       <h2 class="sub-heading">Inquire Here</h2>
-      <form>
+      <form id="contact-form">
         <div class="form-group">
-          <input type="text" placeholder="First Name" required>
-          <input type="text" placeholder="Last Name" required>
+          <input type="text" name="first_name" placeholder="First Name" required>
+          <input type="text" name="last_name" placeholder="Last Name" required>
         </div>
-        <input type="text" placeholder="Contact Number" required>
-        <input type="email" placeholder="Email Address" required>
-        <textarea placeholder="Message" required></textarea>
-        <button type="submit" class="send-btn">Send</button>
+          <input type="text" name="contact_number" placeholder="Contact Number" required>
+          <input type="email" name="email" placeholder="Email Address" required>
+          <textarea name="message" placeholder="Message" required></textarea>
+          <button type="submit" class="send-btn">Send</button>
       </form>
 
       <!-- Business Info -->

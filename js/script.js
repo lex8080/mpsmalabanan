@@ -155,3 +155,20 @@ updateCarousel();
   gtag('js', new Date());
 
   gtag('config', 'AW-17734560765');
+
+
+  (function(){
+    emailjs.init("fYnyqn0AknqjV_yXU"); // Replace with your EmailJS User ID
+  })();
+
+  document.getElementById('contact-form').addEventListener('submit', function(event) {
+    event.preventDefault(); // Prevent default form submission
+
+    emailjs.sendForm('service_e9epe9d', 'template_yjd2xxt', this)
+      .then(function() {
+        alert('Message sent successfully to mps.malabanan@gmail.com!');
+        document.getElementById('contact-form').reset(); // Reset form
+      }, function(error) {
+        alert('Failed to send message: ' + JSON.stringify(error));
+      });
+  });
