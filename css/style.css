@@ -316,12 +316,12 @@ body {
   display: flex;
   flex-wrap: wrap;
   gap: 25px 40px;
-  font-weight: bold;
 }
 
 .scope-list span {
   font-size: 1rem;
   color: var(--dark);
+  font-weight: bold;
 }
 
 /* Modal */
