@@ -321,7 +321,6 @@ body {
 .scope-list span {
   font-size: 1rem;
   color: var(--dark);
-  font-weight: bold;
 }
 
 /* Modal */
