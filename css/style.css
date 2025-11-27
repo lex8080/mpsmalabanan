@@ -5,6 +5,7 @@
   --light: #fcfef9;
   --nav-bg: #0f4860;
   --grey-bg: #6a7377;
+  --section-bg: #d0f0f8;
 }
 
 * {
@@ -382,7 +383,7 @@ body {
 
 /* Contact Section */
 .contact-section {
-  background-color: var(--dark);
+  background-color: var(--section-bg);
   padding: 50px;
   color: var(--dark);
   min-height: 100vh;
