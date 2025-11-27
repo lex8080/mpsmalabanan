@@ -382,7 +382,7 @@ body {
 
 /* Contact Section */
 .contact-section {
-  background-color: var(--primary);
+  background-color: var(--nav-bg);
   padding: 50px;
   color: var(--dark);
   min-height: 100vh;
