@@ -166,7 +166,7 @@ updateCarousel();
 
     emailjs.sendForm('service_e9epe9d', 'template_yjd2xxt', this)
       .then(function() {
-        alert('Message sent successfully to mps.malabanan@gmail.com!');
+        alert('Message sent successfully!');
         document.getElementById('contact-form').reset(); // Reset form
       }, function(error) {
         alert('Failed to send message: ' + JSON.stringify(error));
