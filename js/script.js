@@ -164,7 +164,7 @@ updateCarousel();
   document.getElementById('contact-form').addEventListener('submit', function(event) {
     event.preventDefault(); // Prevent default form submission
 
-    emailjs.sendForm('service_q6cr8pm', 'template_yjd2xxt', this)
+    emailjs.sendForm('service_e9epe9d', 'template_yjd2xxt', this)
       .then(function() {
         alert('Message sent successfully!');
         document.getElementById('contact-form').reset(); // Reset form
